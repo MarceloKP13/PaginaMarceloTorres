@@ -1,0 +1,117 @@
+.titulo_tecnologias {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300; 
+    padding: 30px
+}
+
+.tecnologias {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.tecnologia_seccion1 {
+    min-width: 200px;
+    width: 50%
+}
+
+.tecnologia_imagen {
+    width: 45%;
+    margin: 4px;
+}
+
+.img_tecnologia {
+    width: 100%;
+    border-radius: 8px; 
+}
+
+.card_tecnologia {
+    margin: 20px;
+    padding: 15px; 
+}
+
+.card_tecnologia h2 {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.card_tecnologia p {
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+}
+.card_tecnologia a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+
+}
+
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: black;
+    padding: 6px;
+    border-radius: 5px;
+    
+}
+
+.footer_contacto, .logo_footer {
+    width: 50%; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    height: 120px;
+    font-size:  1.5rem;
+}
+.footer_contacto ul{
+    display: flex;
+    gap: 40px;    
+    font-size:  1rem;
+}
+.logo_footer img {
+    max-width: 150px; 
+    height: auto;
+}
+.footer_derechos {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size:  1.5rem;
+}
+@media (max-width: 600px) {
+    .tecnologias {
+        flex-direction: column;
+    }
+    .card_tecnologia, .tecnologia_imagen {
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+    .footer_contacto, .logo_footer, .footer_derechos {
+        width: 100%;
+    }
+    .logo_footer img {
+        max-width: 180px;
+        height: auto;
+    }
+}
+

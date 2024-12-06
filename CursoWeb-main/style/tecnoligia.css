@@ -1,0 +1,47 @@
+.tecnologia{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.tecnologia_imagen, .tecnologia_informacion{
+    width: 45%;
+    min-width: 360px;
+}
+
+.img_tecnoliga{
+    width: 100%;
+    min-width: 360px;
+    height: 400px;
+}
+.tecnologia_informacion .tecnologia_seccion1{
+    margin: 10px;
+    border: 1px solid transparent;
+}
+.tecnologia_informacion h2{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 7px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 700;
+}
+.tecnologia_seccion1 p{
+    text-align: justify;
+    font-size: 1.3rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.tecnologia_seccion1 a{
+background-color: black;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 700;
+border-radius: 10px;
+padding: 10px;
+text-decoration: none;
+}

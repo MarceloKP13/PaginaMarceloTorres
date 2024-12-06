@@ -1,0 +1,49 @@
+.contacto {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  text-align: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.contacto_informacion,
+.contacto_logo {
+  width: 45%;
+  margin-top: 10px;
+}
+.contacto_derecho {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contacto_derecho p {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  padding: 10px;
+}
+.contacto_robot {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 910px) {
+  .contacto {
+    flex-direction: column;
+  }
+  .contacto_informacion,
+  .contacto_logo {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+@media (max-width:390px){
+    .contacto_informacion ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto_derecho p{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,44 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            margin: 20px;
+            display: flex;
+            align-items: start;
+        }
+        
+        .hijo_uno{
+            width: 50%;
+        }
+        .home{        
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .hijo_dos{
+            width: 50%;
+        }
+        .logo{
+            display: flex;
+            justify-content: space-around;
+        }
+        img{
+            width: 50px;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        @media(max-width:450px){
+            .container{
+                flex-direction: column;
+            }
+
+        }
